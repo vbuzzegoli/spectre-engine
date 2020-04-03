@@ -40,6 +40,8 @@ That's it. :raised_hands:
 
 You can now **make any web application and desktop application**.
 
+> Note: All common browser functionnalities (copy/paste, reload, open in new tab/window,..) available using the menu or using Chrome shortcuts.
+
 ## Examples
 
 Here is a list of amazing web apps that could use a desktop application, to get you started:
