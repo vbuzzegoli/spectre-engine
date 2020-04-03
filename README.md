@@ -40,7 +40,7 @@ That's it. :raised_hands:
 
 You can now **make any web application and desktop application**.
 
-> Note: All common browser functionnalities (copy/paste, reload, open in new tab/window,..) available using the menu or using Chrome shortcuts.
+> Note: All common browser functionnalities (copy/paste, back/forward, reload, open in new tab/window,..) available using the menu or using Chrome shortcuts.
 
 ## Examples
 
