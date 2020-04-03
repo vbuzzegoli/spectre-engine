@@ -1,0 +1,6 @@
+*.sh linguist-detectable=false
+*.json linguist-detectable=false
+*.md linguist-detectable=false
+*.png linguist-detectable=false
+*.ico linguist-detectable=false
+*.js linguist-detectable=true
