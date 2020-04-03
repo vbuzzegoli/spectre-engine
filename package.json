@@ -1,0 +1,29 @@
+{
+  "name": "spectre",
+  "version": "1.0.0",
+  "description": "Transform any web app into a desktop app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "cli": ". ./scripts/bundle.sh",
+    "build": ". ./scripts/bundle.sh"
+  },
+  "repository": "https://github.com/vbuzzegoli/spectre",
+  "keywords": [
+    "Spectre",
+    "spectre",
+    "spectrum",
+    "Ghost",
+    "ghost",
+    "web",
+    "desktop",
+    "app"
+  ],
+  "author": "Victor Buzzegoli <vbuzze@gmail.com>",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "asar": "3.0.3",
+    "electron": "8.2.0",
+    "electron-packager": "14.2.1"
+  }
+}
