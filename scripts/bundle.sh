@@ -157,7 +157,7 @@ $cprint neutral "Packaging Application.."
 } || {
   $cprint error "[WARNING] Unable to setup icon."
 }
-electron-packager . "$name" --out=$DEFAULT_OUTPUT_PATH --ignore=node_modules/electron-* --asar --platform=darwin --darwin-dark-mode-support --icon=./appIcon.icns
+electron-packager . "$name" --out=$DEFAULT_OUTPUT_PATH --asar --platform=darwin --darwin-dark-mode-support --icon=./appIcon.icns
 
 $cprint neutral "Renaming distribution.."
 for targetDirectory in `ls $DEFAULT_OUTPUT_PATH`; do 

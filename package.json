@@ -27,7 +27,7 @@
     "electron-packager": "14.2.1"
   },
   "dependencies": {
-    "clipboardy": "^2.3.0",
-    "electron-context-menu": "^0.16.0"
+    "clipboardy": "2.3.0",
+    "electron-context-menu": "0.16.0"
   }
 }
