@@ -35,7 +35,7 @@ if [ -e "$iconset_path" ]; then
     fi
 fi
 
-echo "Creating icoset.."
+echo "Creating iconset.."
 /bin/mkdir "$iconset_path"
 
 icon_file_list=(

@@ -25,5 +25,9 @@
     "asar": "3.0.3",
     "electron": "8.2.0",
     "electron-packager": "14.2.1"
+  },
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "electron-context-menu": "^0.16.0"
   }
 }
