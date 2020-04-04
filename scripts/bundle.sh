@@ -6,6 +6,7 @@ APPLICATIONS_FOLDER="/Applications"
 ICON_PATH="./public/icon.png"
 PREFERENCES_PATH="./public/preferences.json"
 DEFAULT_ICON_PATH="./assets/icons/png/spectre-high-res.png"
+PRESETS_PATH="./presets.js"
 REPOSITORY_URL="https://github.com/vbuzzegoli/spectre"
 PACKAGE_VERSION=$(node -p -e "require('./package.json').version")
 
@@ -40,11 +41,30 @@ if [ ${#name} -lt 1 ]; then
   return
 fi
 
+# Presets
+{
+  presetExists=$(node -p -e "require('$PRESETS_PATH').exists('$name')")
+  if [ $presetExists ] && [ "$presetExists" = "true" ]; then
+    $ask "- [PRESET FOUND] Do you want to use the preset information for this application: (y/n)" "yes"; read -p "" usePreset ;
+    if [ ! $usePreset ] || [ $usePreset != "n" ]; then usePreset=true ; else usePreset=false ; fi
+    if [ "$usePreset" = "true" ]; then
+      url=$(node -p -e "require('$PRESETS_PATH').getUrlOf('$name')")
+      imageUrl=$(node -p -e "require('$PRESETS_PATH').getIconUrlOf('$name')")
+      useWebIcon=true
+    fi
+  fi
+} || {
+  $cprint error "Error during preset detection"
+  usePreset=false
+}
+
 # - Web URL
-$ask "- Web URL:" ; read -p "" url ; protocol="${url:0:4}" ;
-if [ ! $url ] || [ $protocol != "http" ]; then
-  $cprint error "The URL provided seems invalid. Please try again."
-  return
+if [ "$usePreset" = "false" ]; then
+  $ask "- Web URL:" ; read -p "" url ; protocol="${url:0:4}" ;
+  if [ ! $url ] || [ $protocol != "http" ]; then
+    $cprint error "The URL provided seems invalid. Please try again."
+    return
+  fi
 fi
 
 # - Use Applications Folder
@@ -52,11 +72,16 @@ $ask "- Add to the Applications folder: (y/n)" "yes"; read -p "" useApplicationF
 if [ ! $useApplicationFolder ] || [ $useApplicationFolder != "n" ]; then useApplicationFolder=true ; else useApplicationFolder=false ; fi
 
 # - Use WebApp Icon
-$ask "- Use image from web as icon: (y/n)" "yes"; read -p "" useWebIcon ;
-if [ ! $useWebIcon ] || [ $useWebIcon != "n" ]; then useWebIcon=true ; else useWebIcon=false ; fi
-if [ "$useWebIcon" = "true" ]; then
-  $ask " -- Icon URL (.png only - ex: https://www.ggogle.com/myImage.png): " ; read -p "" imageUrl ;
-else
+if [ "$usePreset" = "false" ]; then
+  $ask "- Use image from web as icon: (y/n)" "yes"; read -p "" useWebIcon ;
+  if [ ! $useWebIcon ] || [ $useWebIcon != "n" ]; then useWebIcon=true ; else useWebIcon=false ; fi
+  if [ "$useWebIcon" = "true" ]; then
+    $ask " -- Icon URL (.png only - ex: https://www.ggogle.com/myImage.png): " ; read -p "" imageUrl ;
+  fi
+fi
+
+# - Use Local Icon
+if [ "$usePreset" = "false" ] && [ "$useWebIcon" = "false" ]; then
   $ask "- Use local image as icon: (y/n)" "no"; read -p "" useCustomIcon ;
   if [ $useCustomIcon ] && [ $useCustomIcon = "y" ]; then useCustomIcon=true ; else useCustomIcon=false ; fi
   if [ "$useCustomIcon" = "true" ]; then

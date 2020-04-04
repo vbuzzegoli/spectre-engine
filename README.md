@@ -44,87 +44,28 @@ You can now **make any web application and desktop application**.
 
 ## Examples
 
-Here is a list of amazing web apps that could use a desktop application, to get you started:
+Here is a list of amazing web apps that could use a desktop application, to get you started. **These frequently used web apps are already preset for you within _Spectre_**, so you can generate them right away without looking for links. Just use one of these names and the CLI will automatically set things up for you.
 
 - **Facebook**
-  - URL: https://www.facebook.com/
-  - Icon URL: [Link](https://1.bp.blogspot.com/-XiLOdfhlkWM/VQLP0EKDrVI/AAAAAAAAXwM/tvzCwhKdxw4/s1600/F_icon.svg.png)
-
 - **Messenger**
-  - URL: https://www.messenger.com/
-  - Icon URL: [Link](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Facebook_Messenger_4_Logo.svg/1200px-Facebook_Messenger_4_Logo.svg.png)
-
 - **Twitter**
-  - URL: https://twitter.com
-  - Icon URL: [Link](https://raphahw.com/wp-content/uploads/2016/08/Twittericon.png)
-
 - **Youtube**
-  - URL: https://www.youtube.com/
-  - Icon URL: [Link](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/YouTube_social_white_circle_%282017%29.svg/1024px-YouTube_social_white_circle_%282017%29.svg.png)
-
 - **Instagram**
-  - URL: https://www.instagram.com/
-  - Icon URL: [Link](https://cdn.pixelprivacy.com/wp-content/uploads/2018/02/Instagram-Icon.png)
-
 - **Reddit**
-  - URL: https://www.reddit.com/
-  - Icon URL: [Link](https://www.androidpolice.com/wp-content/uploads/2016/01/nexus2cee_reddit.png)
-
 - **Twitch**
-  - URL: https://www.twitch.tv/
-  - Icon URL: [Link](https://image.flaticon.com/icons/png/512/733/733577.png)
-
 - **LinkedIn**
-  - URL: https://www.linkedin.com/
-  - Icon URL: [Link](https://www.shareicon.net/data/2016/10/18/844194_color_512x512.png)
-
 - **Soundcloud**
-  - URL: https://soundcloud.com/
-  - Icon URL: [Link](https://cdn.icon-icons.com/icons2/729/PNG/512/soundcloud_icon-icons.com_62724.png)
-
 - **Vimeo**
-  - URL: https://vimeo.com/
-  - Icon URL: [Link](http://icons.iconarchive.com/icons/sicons/basic-round-social/512/vimeo-icon.png)
-
 - **Gmail**
-  - URL: https://mail.google.com/mail
-  - Icon URL: [Link](https://maxcdn.icons8.com/Share/icon/color/Logos/gmail1600.png)
-
 - **Coinbase**
-  - URL: https://www.coinbase.com/
-  - Icon URL: [Link](https://i0.wp.com/paywithink.com/wp-content/uploads/2018/09/icon-512px-1.png?w=1080&ssl=1)
-
 - **Stack Overflow**
-  - URL: https://stackoverflow.com/
-  - Icon URL: [Link](https://www.daskeyboard.com/images/applets/stack-overflow/icon.png)
-
 - **GitHub**
-  - URL: https://github.com/
-  - Icon URL: [Link](https://cdn.afterdawn.fi/v3/news/original/github-logo.png)
-
 - **Bitbucket**
-  - URL: https://bitbucket.org/
-  - Icon URL: [Link](https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/bitbucket-512.png)
-  
 - **Firebase**
-  - URL: https://firebase.google.com/
-  - Icon URL: [Link](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.stickpng.com%2Fassets%2Fthumbs%2F5847f40ecef1014c0b5e488a.png)
-
 - **Behance**
-  - URL: https://www.behance.net/
-  - Icon URL: [Link](https://cdn.onlinewebfonts.com/svg/img_45478.png)
-
 - **Dribbble**
-  - URL: https://dribbble.com/
-  - Icon URL: [Link](https://cdn.freebiesupply.com/logos/large/2x/dribbble-icon-1-logo-png-transparent.png)
-
-- **New York Times**
-  - URL: https://www.nytimes.com
-  - Icon URL: [Link](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffiles.softicons.com%2Fdownload%2Fsystem-icons%2Fwindows-8-metro-invert-icons-by-dakirby309%2Fpng%2F256x256%2FInternet%2520Shortcuts%2520%26%2520Manufacturers%2FThe%2520New%2520York%2520Times%2520alt.png)
-
+- **NY Times**
 - **Rolling Stone**
-  - URL: https://www.rollingstone.com/
-  - Icon URL: [Link](https://1000logos.net/wp-content/uploads/2017/05/Rolling-Stones-logo-432x500.png)
 
 > We wanna hear about your favorite apps! [@victorbuzzegoli](https://twitter.com/victorbuzzegoli)
 
