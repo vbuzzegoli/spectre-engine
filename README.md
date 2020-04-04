@@ -87,7 +87,7 @@ You can make a _donation_ using the following information/links:
 
 ## Troubleshoot
 
-If you find have any trouble with this software please [open an issue on GitHub](https://github.com/vbuzzegoli/spectre/issues), or [reach out to me on Twitter @victorbuzzegoli](https://twitter.com/victorbuzzegoli).
+If you have any trouble with this software please [open an issue on GitHub](https://github.com/vbuzzegoli/spectre/issues), or [reach out to me on Twitter @victorbuzzegoli](https://twitter.com/victorbuzzegoli).
 
 ## Author
 
