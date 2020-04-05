@@ -1,6 +1,6 @@
 {
   "name": "spectre",
-  "version": "1.3.1-beta",
+  "version": "1.3.2-beta",
   "description": "Transform any web app into a desktop app",
   "main": "main.js",
   "scripts": {

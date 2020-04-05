@@ -42,6 +42,7 @@ if [ ${#name} -lt 1 ]; then
 fi
 
 # Presets
+usePreset=false
 {
   presetExists=$(node -p -e "require('$PRESETS_PATH').exists('$name')")
   if [ $presetExists ] && [ "$presetExists" = "true" ]; then
@@ -55,7 +56,6 @@ fi
   fi
 } || {
   $cprint error "Error during preset detection"
-  usePreset=false
 }
 
 # - Web URL
