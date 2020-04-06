@@ -21,7 +21,7 @@ const presets = {
 
   'Instagram': {
     url: 'https://www.instagram.com/',
-    iconUrl: 'https://cdn.pixelprivacy.com/wp-content/uploads/2018/02/Instagram-Icon.png'
+    iconUrl: 'https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png'
   },
 
   'Reddit': {
