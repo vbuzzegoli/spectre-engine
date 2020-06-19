@@ -1,4 +1,4 @@
-![spectre](spectre.png)
+![spectre](hero.png)
 
 ## What is Spectre
 
