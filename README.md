@@ -19,7 +19,7 @@ From your [command line](https://www.wikihow.com/Get-to-the-Command-Line-on-a-Ma
 cd ~/Documents
 
 # Clone this project and install it
-git clone https://github.com/vbuzzegoli/spectre && cd ./spectre && npm install
+git clone https://github.com/vbuzzegoli/spectre-engine.git && cd ./spectre-engine && npm install
 ```
 
 ### Usage
@@ -58,16 +58,18 @@ Here is a list of amazing web apps that could use a desktop application, to get 
 - **Vimeo**
 - **Gmail**
 - **Coinbase**
-- **Stack Overflow**
+- **Stack-Overflow**
 - **GitHub**
 - **Bitbucket**
 - **Firebase**
 - **Behance**
 - **Dribbble**
-- **NY Times**
-- **Rolling Stone**
+- **NY-Times**
+- **Rolling-Stone**
 
 > We wanna hear about your favorite apps! [@victorbuzzegoli](https://twitter.com/victorbuzzegoli)
+
+> Note: Names should not contain spaces.
 
 ## Support
 
@@ -87,7 +89,7 @@ You can make a _donation_ using the following information/links:
 
 ## Troubleshoot
 
-If you have any trouble with this software please [open an issue on GitHub](https://github.com/vbuzzegoli/spectre/issues), or [reach out to me on Twitter @victorbuzzegoli](https://twitter.com/victorbuzzegoli).
+If you have any trouble with this software please [open an issue on GitHub](https://github.com/vbuzzegoli/spectre-engine/issues), or [reach out to me on Twitter @victorbuzzegoli](https://twitter.com/victorbuzzegoli).
 
 ## Author
 

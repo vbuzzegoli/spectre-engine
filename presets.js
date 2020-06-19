@@ -16,7 +16,7 @@ const presets = {
 
   'Youtube': {
     url: 'https://www.youtube.com/',
-    iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Youtube%28amin%29.png'
+    iconUrl: 'https://maxcdn.icons8.com/Share/icon/Media_Controls/youtube_play1600.png'
   },
 
   'Instagram': {
@@ -26,17 +26,17 @@ const presets = {
 
   'Reddit': {
     url: 'https://www.reddit.com/',
-    iconUrl: 'https://www.androidpolice.com/wp-content/uploads/2016/01/nexus2cee_reddit.png'
+    iconUrl: 'http://www.vectorico.com/download/social_media/Reddit-Icon.png'
   },
 
   'Twitch': {
     url: 'https://www.twitch.tv/',
-    iconUrl: 'https://image.flaticon.com/icons/png/512/733/733577.png'
+    iconUrl: 'https://socialman.net/imgs/landing/twitch-giveaway-app.png'
   },
 
   'LinkedIn': {
     url: 'https://www.linkedin.com/',
-    iconUrl: 'https://www.shareicon.net/data/2016/10/18/844194_color_512x512.png'
+    iconUrl: 'https://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo-500x500.png'
   },
 
   'Soundcloud': {
@@ -66,7 +66,7 @@ const presets = {
 
   'GitHub': {
     url: 'https://github.com/',
-    iconUrl: 'https://cdn.afterdawn.fi/v3/news/original/github-logo.png'
+    iconUrl: 'https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/276/full/github_logo.png'
   },
 
   'Bitbucket': {
@@ -81,7 +81,7 @@ const presets = {
 
   'Behance': {
     url: 'https://www.behance.net/',
-    iconUrl: 'https://cdn.onlinewebfonts.com/svg/img_45478.png'
+    iconUrl: 'https://cdn.icon-icons.com/icons2/840/PNG/512/Behance_icon-icons.com_66898.png'
   },
 
   'Dribbble': {
