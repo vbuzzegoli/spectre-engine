@@ -1,6 +1,6 @@
 {
   "name": "spectre-engine",
-  "version": "2.0.1-beta",
+  "version": "2.0.2-beta",
   "description": "Transform any web app into a desktop app",
   "main": "main.js",
   "scripts": {

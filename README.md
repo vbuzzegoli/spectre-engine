@@ -28,7 +28,7 @@ From your [command line](https://www.wikihow.com/Get-to-the-Command-Line-on-a-Ma
 
 ```bash
 # Move to the directory where you installed Spectre
-cd ~/Documents/spectre
+cd ~/Documents/spectre-engine
 
 # Create new applications using the CLI
 npm run cli
