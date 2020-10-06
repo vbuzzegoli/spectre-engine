@@ -23,7 +23,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "asar": "3.0.3",
-    "electron": "8.2.0",
+    "electron": "8.5.1",
     "electron-packager": "14.2.1"
   },
   "dependencies": {
